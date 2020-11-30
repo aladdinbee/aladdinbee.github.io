@@ -18,4 +18,5 @@ p.style {
 }
 .navbar{
     z-index: 999 !important;
+    width: 100% !important;
 }
