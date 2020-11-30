@@ -16,3 +16,6 @@ p.style {
     background: #e7ba58;
     margin-bottom: 15px; 
 }
+.navbar{
+    z-index: 999;
+}
