@@ -16,7 +16,7 @@
             $.getJSON('lab5.json', function(car) {
                 $('#first').append('<img src="' + car.imageURL + '">');
                 $('#second').append(car.year + ' ' + car.name + ' for sale' + '<br>' + '<b> Asking price :<b> $355,000')
-                $('#third').append('this sports car has a ' + car.engine.type + ' engine with a size of ' + car.engine.size + ' ' + car.engine.configuration + '<br>' + 'Fantastic Stock breaking system that has a ' +  car.brakes.front + ' front brakes and ' + car.brakes.back + ' back brakes')
+                $('#third').append('this sports car has a ' + car.engine.type + ' engine with a size of ' + car.engine.size + ' ' + car.engine.configuration + '<br>' + 'Fantastic Stock breaking system that has a ' +  car.brakes.front + ' front brakes and <br>' + car.brakes.back + ' back brakes')
               });
            });
      </script>
