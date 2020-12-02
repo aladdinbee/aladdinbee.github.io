@@ -1,0 +1,21 @@
+h1, h2 {
+    color: darkgoldenrod;
+}
+p.style {
+    color: solid gray;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+.gridding{
+    padding: 15px;
+    font-size: 18px;
+    background: #72a4f0;
+    margin-bottom: 15px;    
+}
+.gridding2{
+    padding: 15px;
+    font-size: 18px;
+    background: #e7ba58;
+    margin-bottom: 15px; 
+}
