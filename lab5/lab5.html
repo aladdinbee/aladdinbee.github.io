@@ -16,6 +16,7 @@
             $.getJSON('lab5.json', function(car) {
                 $('#first').append('<img src="' + car.imageURL + '">');
                 $('#second').append(car.year + ' ' + car.name + ' for sale')
+                $('#third').append('this sports car has a ' + car.engine.type + ' engine with a size of ' + car.engine.size)
               });
            });
      </script>
@@ -31,11 +32,11 @@
     <div class="col"></div>
         <div class="gridding2" id="first"></div>
     <div class="col"></div>
-        <div class="gridding2"></div>
+        <div class="gridding2" id="second"></div>
     <div class="col"></div>
-        <div class="gridding2"></div>
+        <div class="gridding2" id="third"></div>
     <div class="col"></div>
-        <div class="gridding2"></div>
+        <div class="gridding2" id="fourth"></div>
   </div>
 </body>
 
